@@ -1,0 +1,704 @@
+header{
+    background-color: black;
+    height: 80px;
+    max-width: 1840px;
+
+}
+
+main{
+    max-width: 1340px;
+
+}
+
+.container-grid{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+.icone-menu{
+    height: 40px;
+}
+
+#barras{
+    display: none;
+}
+
+.banner{
+    height: 710px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/banner/2k.png);
+    /* max-width: 1340px; */
+}
+
+.banner-godOfWar{
+    background-image: url(/assets/img/banner\ god\ of\ war.png);
+}
+
+.banner-Ghost{
+    background-image: url(/assets/img/banner\ do\ ghost\ of\ tsushima.png);
+}
+.conteudo-banner{
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+        
+}
+
+.posicionamento-banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.conteudo-banner h1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+
+}
+
+.conteudo-banner p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+}
+
+.conteudo-banner a{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FCA40B;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+}
+
+.faixa-de-marcas{
+    background-color: black;
+    height: 70px;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.logos{
+    width: 100%;
+    height: 70px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;   
+}
+
+.catalogo-de-jogos{
+    margin: 0 auto;
+    margin-top: 1px;
+    background-color: black;
+    background-size: cover;
+    height: 1300px;
+    align-items: center;
+    max-width: 1840px;
+}
+
+.catalogo-de-jogos h1{
+    color: white;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.preços{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+}
+
+.preços >div{
+    margin-top: 10px;
+}
+
+.god-of-war{
+    background-image: url(/assets/img/god\ of\ war.png);
+    margin: 0 auto;
+    width: 295px;
+    height: 550px;
+    border-radius: 29px; 
+}
+
+.conteudo-god{
+    width: 295px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    
+}
+
+.god-of-war h2{
+    height: 110px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.god-of-war p{
+    height: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase; 
+}
+
+.god-of-war a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+}
+
+.call-of-duty{
+    background-image: url(/assets/img/call\ of\ duty.png);
+    margin: 0 auto;
+    width: 280px;
+    height: 550px; 
+    border-radius: 29px;  
+}
+
+.conteudo-cod{
+    width: 295px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.call-of-duty h2{
+    height: 110px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.call-of-duty p{
+    height: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.call-of-duty a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+.ghost-of-tsushima{
+    background-image: url(/assets/img/ghost\ of\ tsushima.png);
+    margin: 0 auto;
+    width: 280px;
+    height: 550px; 
+    border-radius: 29px;
+}
+
+.conteudo-ghost{
+    width: 295px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.ghost-of-tsushima h2{
+    height: 110px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.ghost-of-tsushima p{
+    height: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.ghost-of-tsushima a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+.fifa22{
+    background-image: url(/assets/img/fifa\ 22.png);
+    margin: 0 auto;
+    width: 280px;
+    height: 550px;
+    border-radius: 29px;
+}
+
+.conteudo-fifa{
+    width: 295px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.fifa22 h2{
+    height: 110px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.fifa22 p{
+    height: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.fifa22 a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+.catalogo-de-jogos2{
+    margin: auto;
+    background-color: black;
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+}
+
+.preços2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.red-dead{
+    background-image: url(/assets/img/red\ dead.png);
+    margin: 0 auto;
+    width: 280px;
+    height: 550px;
+    border-radius: 29px;
+}
+
+.conteudo-red-dead{
+    width: 295px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+    
+.red-dead h2{
+    height: 110px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.red-dead p{
+    height: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.red-dead a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+.elden-ring{
+    background-image: url(/assets/img/elden\ ring.png);
+    margin: 0 auto;
+    width: 280px;
+    height: 550px;
+    border-radius: 29px;
+}
+
+.conteudo-elden-ring{
+    width: 295px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.elden-ring h2{
+    height: 110px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.elden-ring p{
+    height: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.elden-ring a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+.spider-man{
+    background-image: url(/assets/img/spider\ man.png);
+    margin: 0 auto;
+    width: 280px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.conteudo-spider-man{
+    width: 295px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.spider-man h2{
+    height: 110px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.spider-man p{
+    height: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.spider-man a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+.f122{
+    background-image: url(/assets/img/f1\ 22.png);
+    margin: 0 auto;
+    width: 280px;
+    height: 550px;
+    border-radius: 29px;
+}
+
+.conteudo-f122{
+    width: 295px;
+    height: 550px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+   
+.f122 h2{
+    height: 110px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.f122 p{
+    height: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase; 
+}
+
+.f122 a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+.propaganda{
+    background-image: url(/assets/img/propaganda.png);
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    max-width: 1840px;
+}
+
+.conteudo-propaganda{
+    width: 150px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.conteudo-propaganda p{
+    height: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    line-height: 30px;
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+    margin-top: 1px;
+    /* width: 1400px; */
+}
+
+.informacoes h2{
+    text-transform: uppercase;
+    color: white;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+}
+
+.informacoes p{
+    color: white;
+    width: 180px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    line-height: 25px
+}
+
+.logo-rodape{
+    height: 61px;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+
+}
+
+.informacoes2{
+    height: 70px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.atendimento{
+    flex-direction: column;
+    padding: 0%;
+}
+
+.redes-sociais{
+    flex-direction: column;
+    padding: 0%;
+}
+
+.redes-sociais h1{
+    color: white;
+    text-align: center;
+    height: 45px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.redes-sociais a{
+    justify-content: space-between;
+    padding: 20px; 
+    
+}
+
+@media screen and (max-width: 1440px) {
+    .catalogo-de-jogos{
+        height: 100%;
+    }
+    .preços{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex: 1 1 100px;
+        flex-wrap: wrap;
+    }
+
+    .preços2{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex: 1 1 100px;
+        flex-wrap: wrap;
+    }
+    
+    .catalogo-de-jogos2{
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 834px) {
+    #barras{
+        display: inline-block;
+    }
+    
+    .cabecalho{
+        position: relative;
+    }
+    
+    .menu{
+        display: none;
+
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: -35px;
+        background-color: black;
+        height: 300px;
+        width: 100vw;
+    }
+   
+    .catalogo-de-jogos{
+        height: 100%;
+        
+    }
+    
+    .preços{
+        width: 500px;
+        justify-content: space-around;
+        display: grid;
+        
+    }
+   
+    .catalogo-de-jogos2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    
+    .catalogo-de-jogos{
+        height: 100%;
+    }
+    
+    .preços{
+        width: 500px;
+        justify-content: space-around;
+        display: inline;
+    }
+    
+    .catalogo-de-jogos2{
+        display: none;
+    }
+}
