@@ -47,10 +47,13 @@ main{
     height: 710px; 
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/assets/img/banner/2k.png);
+    background-image: url(/assets/img/banner2k.png);
     /* max-width: 1340px; */
 }
 
+.banner-nba{
+    background-image: url(/assets/img/banner2k.png);
+}
 .banner-godOfWar{
     background-image: url(/assets/img/banner\ god\ of\ war.png);
 }
@@ -125,7 +128,7 @@ main{
     background-size: cover;
     height: 1300px;
     align-items: center;
-    max-width: 1840px;
+    /* max-width: 1840px; */
 }
 
 .catalogo-de-jogos h1{
@@ -526,12 +529,12 @@ main{
 }
 
 .propaganda{
-    background-image: url(/assets/img/propaganda.png);
-    height: 520px;
+    background-image: url(/assets/img/bannerPropaganda.png);
+    height: 506px;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
-    max-width: 1840px;
+    /* max-width: 1840px; */
 }
 
 .conteudo-propaganda{
