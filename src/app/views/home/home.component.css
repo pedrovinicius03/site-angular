@@ -47,22 +47,22 @@ main{
     height: 710px; 
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/assets/img/banner2k.png);
+    
     /* max-width: 1340px; */
 }
 
 .banner-nba{
-    background-image: url(/assets/img/banner2k.png);
+    background-image: url(/assets/img/banner_2k.png);
 }
 .banner-godOfWar{
-    background-image: url(/assets/img/banner\ god\ of\ war.png);
+    background-image: url(/assets/img/banner_god_of_war.png);
 }
 
 .banner-Ghost{
-    background-image: url(/assets/img/banner\ do\ ghost\ of\ tsushima.png);
+    background-image: url(/assets/img/banner_do_ghost_of_tsushima.png);
 }
 .conteudo-banner{
-    width: 500px;
+    width: 380px;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -89,6 +89,7 @@ main{
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
+    
 }
 
 .conteudo-banner a{
@@ -622,7 +623,7 @@ footer{
     
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .catalogo-de-jogos{
         height: 100%;
     }
@@ -645,7 +646,7 @@ footer{
     .catalogo-de-jogos2{
         height: 100%;
     }
-}
+} */
 
 
 @media screen and (max-width: 834px) {
